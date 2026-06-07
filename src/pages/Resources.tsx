@@ -74,35 +74,35 @@ export default function Resources() {
           </div>
 
           <div className="rs-media-grid">
-            <a href="https://www.youtube.com/channel/UCTOAYCstGJNZulaOF0TXGlg" target="_blank" rel="noopener noreferrer" className="rs-video-card">
-              <div className="rs-video-thumb" style={{ backgroundImage: 'url("/images/live/fusion-splicer-pdr618h.png")', backgroundSize: 'cover', backgroundPosition: 'center' }}>
-                <div className="rs-play-btn"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M5 3l14 9-14 9V3z" /></svg></div>
+            <div className="rs-video-card">
+              <div className="rs-video-container">
+                <iframe src="https://www.youtube-nocookie.com/embed/7zuhQEL9JLo" title="Splice Closure" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
               </div>
               <div className="rs-video-info">
-                <h4>Fusion Splicer PDR618H Setup Guide</h4>
-                <p>Learn how to calibrate and operate our 8s fusion splicer.</p>
+                <h4>Splice Closure</h4>
+                <p>Complete calibration and operation guide for our fusion splicer.</p>
               </div>
-            </a>
+            </div>
 
-            <a href="https://www.youtube.com/channel/UCTOAYCstGJNZulaOF0TXGlg" target="_blank" rel="noopener noreferrer" className="rs-video-card">
-              <div className="rs-video-thumb" style={{ backgroundImage: 'url("/images/live/mini-otdr-pdr4402s.png")', backgroundSize: 'cover', backgroundPosition: 'center' }}>
-                <div className="rs-play-btn"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M5 3l14 9-14 9V3z" /></svg></div>
+            <div className="rs-video-card">
+              <div className="rs-video-container">
+                <iframe src="https://www.youtube-nocookie.com/embed/UI9oTguhGUE" title="Nano OTDR (Built in VFL+OPM)" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
               </div>
               <div className="rs-video-info">
-                <h4>Mini OTDR PDR4402S Demo</h4>
-                <p>Analyzing fiber faults and events using our Pro-OTDR.</p>
+                <h4>Nano OTDR (Built in VFL+OPM)</h4>
+                <p>Analyzing fiber faults and events using our Nano-OTDR equipment.</p>
               </div>
-            </a>
+            </div>
 
-            <a href="https://www.youtube.com/channel/UCTOAYCstGJNZulaOF0TXGlg" target="_blank" rel="noopener noreferrer" className="rs-video-card">
-              <div className="rs-video-thumb" style={{ backgroundImage: 'url("/images/factory-modern.webp")', backgroundSize: 'cover', backgroundPosition: 'center' }}>
-                <div className="rs-play-btn"><svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M5 3l14 9-14 9V3z" /></svg></div>
+            <div className="rs-video-card">
+              <div className="rs-video-container">
+                <iframe src="https://www.youtube-nocookie.com/embed/Fz5ztuc8l38" title="Fast Connector" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
               </div>
               <div className="rs-video-info">
-                <h4>Factory Tour: Mumbai Facility</h4>
-                <p>Inside our clean rooms and interferometry testing labs.</p>
+                <h4>Fast Connector</h4>
+                <p>Step-by-step demonstration on how to install PDR fast connectors.</p>
               </div>
-            </a>
+            </div>
           </div>
 
           <div style={{ textAlign: 'center', marginTop: 32 }}>
@@ -111,90 +111,35 @@ export default function Resources() {
         </div>
       </section>
 
-      {/* MEDIA & PRESS */}
+      {/* MEDIA */}
       <section className="section reveal" id="media" style={{ borderTop: '1px solid var(--line-dark)' }}>
         <div className="container">
           <div className="sec-head center">
             <div className="eyebrow" style={{ justifyContent: 'center' }}>In The News</div>
-            <h2>Media &amp; Press</h2>
-            <p>Stay updated with the latest breakthroughs, corporate announcements, and industry features from PDR World.</p>
+            <h2>Advertisements &amp; Press Coverages</h2>
+            <p>Explore our featured advertisements and press coverages across top industry magazines.</p>
           </div>
 
-          <div className="rs-media-grid">
-            <div className="rs-media-card" style={{ background: 'var(--surface-2)', border: '1px solid var(--line)', borderRadius: 14, overflow: 'hidden' }}>
-              <div style={{ height: 180, background: 'var(--surface-2)', display: 'grid', placeItems: 'center', color: 'var(--accent)' }}>
-                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2" /><path d="M18 14h-8" /><path d="M15 18h-5" /><path d="M10 6h8v4h-8z" /></svg>
-              </div>
-              <div style={{ padding: 20 }}>
-                <span style={{ fontSize: 12, fontWeight: 700, color: 'var(--accent)', textTransform: 'uppercase' }}>Press Release</span>
-                <h4 style={{ margin: '8px 0' }}>PDR Unveils India's First Fiber Optic Drone</h4>
-                <p style={{ fontSize: 14, color: 'var(--muted)' }}>Revolutionizing high-altitude fiber deployment with autonomous UAV technology engineered in Mumbai.</p>
-                <Link to="/contact?inquiry=Media" style={{ display: 'inline-block', marginTop: 14, fontWeight: 600, color: 'var(--ink)', fontSize: 14 }}>Read More →</Link>
-              </div>
-            </div>
-            <div className="rs-media-card" style={{ background: 'var(--surface-2)', border: '1px solid var(--line)', borderRadius: 14, overflow: 'hidden' }}>
-              <div style={{ height: 180, background: 'var(--surface-2)', display: 'grid', placeItems: 'center', color: 'var(--accent)' }}>
-                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2" /><path d="M18 14h-8" /><path d="M15 18h-5" /><path d="M10 6h8v4h-8z" /></svg>
-              </div>
-              <div style={{ padding: 20 }}>
-                <span style={{ fontSize: 12, fontWeight: 700, color: 'var(--accent)', textTransform: 'uppercase' }}>Industry Feature</span>
-                <h4 style={{ margin: '8px 0' }}>Empowering Atmanirbhar Bharat in Telecom</h4>
-                <p style={{ fontSize: 14, color: 'var(--muted)' }}>PDR's 40-year journey featured in Leading Tech Magazine as a cornerstone of Indian manufacturing.</p>
-                <Link to="/contact?inquiry=Media" style={{ display: 'inline-block', marginTop: 14, fontWeight: 600, color: 'var(--ink)', fontSize: 14 }}>Read More →</Link>
-              </div>
-            </div>
-            <div className="rs-media-card" style={{ background: 'var(--surface-2)', border: '1px solid var(--line)', borderRadius: 14, overflow: 'hidden' }}>
-              <div style={{ height: 180, background: 'var(--surface-2)', display: 'grid', placeItems: 'center', color: 'var(--accent)' }}>
-                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2Zm0 0a2 2 0 0 1-2-2v-9c0-1.1.9-2 2-2h2" /><path d="M18 14h-8" /><path d="M15 18h-5" /><path d="M10 6h8v4h-8z" /></svg>
-              </div>
-              <div style={{ padding: 20 }}>
-                <span style={{ fontSize: 12, fontWeight: 700, color: 'var(--accent)', textTransform: 'uppercase' }}>Corporate</span>
-                <h4 style={{ margin: '8px 0' }}>PDR Expands to 20+ Global Export Markets</h4>
-                <p style={{ fontSize: 14, color: 'var(--muted)' }}>New strategic distribution partnerships established across the EU and Southeast Asia regions.</p>
-                <Link to="/contact?inquiry=Media" style={{ display: 'inline-block', marginTop: 14, fontWeight: 600, color: 'var(--ink)', fontSize: 14 }}>Read More →</Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* EVENTS */}
-      <section className="section reveal" id="events">
-        <div className="container">
-          <div className="sec-head">
-            <div className="eyebrow">Upcoming</div>
-            <h2>Events &amp; Exhibitions</h2>
-            <p>Meet the PDR team at industry trade shows and exhibitions across India.</p>
-          </div>
-
-          <div className="rs-events-list">
-            <div className="rs-event">
-              <div className="rs-event-date">
-                <div className="rs-event-month">Sep</div>
-                <div className="rs-event-day">18</div>
-              </div>
-              <div className="rs-event-details">
-                <h4>Convergence India Expo 2026</h4>
-                <p>Bharat Mandapam, New Delhi — Showcasing our latest 5G and FTTH passive infrastructure solutions.</p>
-              </div>
-              <div className="rs-event-action">
-                <Link className="btn btn-outline" to="/contact">Book a Meeting</Link>
-              </div>
-            </div>
-
-            <div className="rs-event">
-              <div className="rs-event-date">
-                <div className="rs-event-month">Nov</div>
-                <div className="rs-event-day">14</div>
-              </div>
-              <div className="rs-event-details">
-                <h4>InfoComm India 2026</h4>
-                <p>Jio World Convention Centre, Mumbai — Live demonstrations of our SMPTE and Broadcast AV solutions.</p>
-              </div>
-              <div className="rs-event-action">
-                <Link className="btn btn-outline" to="/contact">Book a Meeting</Link>
-              </div>
-            </div>
+          <div className="rs-ad-gallery">
+            {[
+              'PDR-FTTF-Feb-Ad-for-V-D-scaled.jpg',
+              'PDR-May-Ad-for-CT-scaled.jpg',
+              'PDR-Optic-Revolution-Feb-Ad-for-CT-scaled.jpg',
+              'PDR-Patch-Cord-Jan-Ad-for-CT-scaled.jpg',
+              'pdr.jpg',
+              'final1.jpg',
+              'Fnl-ET-Ad-scaled.jpg',
+              'Green-Leaf-Sept-09-Ad.jpg',
+              'PDR-3G-Ad.jpg',
+              'PDR-AD-CT-BG-April-07.jpg',
+              'PDR-FDF-ODF-Ad.jpg',
+              'PDR-FttH-June-Ad-CT-scaled.jpg',
+              'PDR-June-Ad-for-Satelite-Cable-scaled.jpg'
+            ].map((img, i) => (
+              <a key={i} href={`/images/media/${img}`} target="_blank" rel="noopener noreferrer" className="rs-ad-card">
+                <img src={`/images/media/${img}`} alt={`PDR Advertisement ${i + 1}`} loading="lazy" />
+              </a>
+            ))}
           </div>
         </div>
       </section>
